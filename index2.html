@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Increment & Decrement</title>
+    <style>
+        body {
+            margin: 0;
+        }
+
+        .container {
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            background-color: #344151;
+            gap: 10px;
+        }
+
+        .title {
+            color: #0398d4;
+            font-weight: medium;
+            font-size: 20px;
+        }
+
+        .button-container {
+            background-color: white;
+            display: flex;
+            flex-direction: row;
+            color: #344151;
+            font-size: 25px;
+            border-radius: 0.2rem;
+            gap: 12px;
+            padding: 3px;
+            padding-left: 5px;
+            padding-right: 5px;
+        }
+
+        .button {
+            border-right: 2px solid #bfbfbf;
+            border-left: 2px solid #bfbfbf;
+            padding-right: 5px;
+            padding-left: 5px;
+        }
+
+        #count {
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Wrapper  -->
+    <div class="container">
+        <div class="title">Increment and Decrement</div>
+
+        <div class="button-container">
+            <button onclick="decrement()" class="button">
+                <i class="fa-solid fa-minus"></i>
+            </button>
+            <div id="count" class="font-bold">9</div>
+            <button onclick="increment()" class="button">
+                <i class="fa-solid fa-plus"></i>
+            </button>
+        </div>
+    </div>
+
+    
+    <script src="https://kit.fontawesome.com/5b12999530.js" crossorigin="anonymous"></script>
+
+    
+    <script src="/script.js"></script>
+</body>
+
+</html>
