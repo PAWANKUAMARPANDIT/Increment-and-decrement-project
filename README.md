@@ -19,4 +19,4 @@ js
 ## Installation
 To clone the repo used the command
 
-git clone https://github.com/Sigma1213/Increment-and-decrement-project
+git clone https://github.com/PAWANKUAMARPANDIT/Increment-and-decrement-project
